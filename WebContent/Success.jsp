@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Success</title>
+<title>Success Screen</title>
 <h2>File Uploaded Successfully..</h2>
 </head>
 <body>
