@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>Servlet FIle Upload</display-name>
+<welcome-file-list>
+<welcome-file>FileUpload.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+<description>FileHandlerServlet for File Processing</description>
+<servlet-name>FileServlet</servlet-name>
+<servlet-class>com.util.upload.FileHandlerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FileServlet</servlet-name>
+<url-pattern>/FileServlet</url-pattern>
+</servlet-mapping>
+<context-param>
+<param-name>FilePath</param-name>
+<param-value>F:\\\FileUpload_CommonIO\FileUpload</param-value>
+</context-param>
+</web-app>
